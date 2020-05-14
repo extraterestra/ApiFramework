@@ -3,8 +3,8 @@ package fxTestApi;
 import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
-import org.junit.jupiter.api.Test;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 import pojo.ResponceLatestUsdGbp;
 
 import static io.restassured.RestAssured.defaultParser;
