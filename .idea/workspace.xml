@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="" />
+    <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -79,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FxRatesTestApi.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FxRatesTestApi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+            <state relative-caret-position="151">
+              <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,11 +110,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pojo/Rates.java" />
         <option value="$PROJECT_DIR$/src/main/java/pojo/ResponceLatestUsdGbp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" />
       </list>
     </option>
   </component>
@@ -183,6 +185,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fxTestApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -211,11 +221,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="JUnit.FxRatesTestApi">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FxRatesTestApi.verifyFxLatestBaseUsd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FxRatesTestApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
         <pattern>
@@ -227,7 +237,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="fxTestApi" />
       <option name="MAIN_CLASS_NAME" value="fxTestApi.FxRatesTestApi" />
-      <option name="METHOD_NAME" value="verifyFxLatestBaseUsd" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FxRatesTestApi.verifyFxLatestNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fxTestApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fxTestApi" />
+      <option name="MAIN_CLASS_NAME" value="fxTestApi.FxRatesTestApi" />
+      <option name="METHOD_NAME" value="verifyFxLatestNegative" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -251,29 +284,6 @@
       <option name="PACKAGE_NAME" value="fxTestApi" />
       <option name="MAIN_CLASS_NAME" value="fxTestApi.FxRatesTestApi" />
       <option name="METHOD_NAME" value="verifyFxLatestResponceBodyContent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FxRatesTestApi.verifyFxLatestSymbolsEur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fxTestApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="fxTestApi" />
-      <option name="MAIN_CLASS_NAME" value="fxTestApi.FxRatesTestApi" />
-      <option name="METHOD_NAME" value="verifyFxLatestSymbolsEur" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -369,19 +379,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestBaseUsd" />
       <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestSymbolsUsdGbp" />
-      <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestSymbolsEur" />
       <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestResponceBodyContent" />
       <item itemvalue="JUnit.TestRunner" />
+      <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestNegative" />
+      <item itemvalue="JUnit.FxRatesTestApi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FxRatesTestApi" />
+        <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestNegative" />
+        <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestResponceBodyContent" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestSymbolsUsdGbp" />
-        <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestResponceBodyContent" />
-        <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestSymbolsEur" />
-        <item itemvalue="JUnit.FxRatesTestApi.verifyFxLatestBaseUsd" />
       </list>
     </recent_temporary>
   </component>
@@ -399,15 +409,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FxRatesTestApi_verifyFxLatestResponceBodyContent - 2020.05.14 at 10h 09m 20s.xml">
-      <configuration name="FxRatesTestApi.verifyFxLatestResponceBodyContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FxRatesTestApi_verifyFxLatestResponceBodyContent - 2020.05.14 at 10h 09m 57s.xml">
-      <configuration name="FxRatesTestApi.verifyFxLatestResponceBodyContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FxRatesTestApi_verifyFxLatestResponceBodyContent - 2020.05.14 at 10h 12m 16s.xml">
-      <configuration name="FxRatesTestApi.verifyFxLatestResponceBodyContent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FxRatesTestApi_verifyFxLatestSymbolsUsdGbp - 2020.05.14 at 10h 56m 21s.xml">
       <configuration name="FxRatesTestApi.verifyFxLatestSymbolsUsdGbp" configurationId="JUnit" />
     </history-entry>
@@ -428,6 +429,15 @@
     </history-entry>
     <history-entry file="TestRunner - 2020.05.14 at 14h 58m 42s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FxRatesTestApi_verifyFxLatestResponceBodyContent - 2020.05.14 at 15h 50m 37s.xml">
+      <configuration name="FxRatesTestApi.verifyFxLatestResponceBodyContent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FxRatesTestApi_verifyFxLatestNegative - 2020.05.14 at 15h 53m 09s.xml">
+      <configuration name="FxRatesTestApi.verifyFxLatestNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FxRatesTestApi_verifyFxLatestNegative - 2020.05.14 at 15h 53m 39s.xml">
+      <configuration name="FxRatesTestApi.verifyFxLatestNegative" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -499,31 +509,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>62</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>64</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>52</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>60</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>55</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -533,8 +543,14 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -691,16 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="65" column="58" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
@@ -726,6 +732,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

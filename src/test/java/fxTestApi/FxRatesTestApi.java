@@ -42,6 +42,7 @@ public class FxRatesTestApi {
 
 
         System.out.println(ratesTest.getBase());
+        Assert.assertEquals(ratesTest.getBase(), "EUR");
     }
 
     @Test
@@ -89,13 +90,12 @@ public class FxRatesTestApi {
 
     @Test
     public void verifyFxLatestNegative() {
-        RestAssured.baseURI = "https://api.ratesapi.io/api/latest";
+        RestAssured.baseURI = "https://api.ratesapi.io/api/";
         String responce = given().log().all().queryParam("base", "USD")
                 .header("Content-Type", "application/json")
 
                 .when().post("maps/api/place/add/json")
-                .then().assertThat().statusCode(200).body("base", equalTo("USD"))
-                .header("Content-Type", "application/json")
+                .then().assertThat().statusCode(404)
                 .extract().response().asString();
 
         System.out.println(responce);
