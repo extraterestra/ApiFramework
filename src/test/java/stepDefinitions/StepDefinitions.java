@@ -1,13 +1,9 @@
 package stepDefinitions;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
-import cucumber.api.junit.Cucumber;
-import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
 public class StepDefinitions {
 
     @Given("^Latest Rates API was called$")
@@ -22,7 +18,6 @@ public class StepDefinitions {
 
     @Then("^Success status of the response returned is 200$")
     public void success_status_of_the_response_returned_is_200() throws Throwable {
-//        throw new PendingException();
         System.out.println("Return code is 200");
     }
 

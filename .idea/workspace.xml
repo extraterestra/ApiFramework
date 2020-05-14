@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RatingsApiLatest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/ResponceLatestUsdGbp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/ResponceLatestUsdGbp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fxTestApi/FxRatesTestApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fxTestApi/FxRatesTestApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RatingsApiLatest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +40,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -194,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589377236581</updated>
       <workItem from="1589475950749" duration="1955000" />
-      <workItem from="1589478442335" duration="1672000" />
+      <workItem from="1589478442335" duration="3902000" />
     </task>
     <servers />
   </component>
@@ -202,33 +196,34 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="152" key="GridCell.Tab.0.bottom" timestamp="1589479539968">
+    <state width="1877" height="471" key="GridCell.Tab.0.bottom" timestamp="1589485195253">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589479539968" />
+    <state width="1877" height="471" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195253" />
     <state width="1237" height="128" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208748" />
-    <state width="1877" height="152" key="GridCell.Tab.0.center" timestamp="1589479539967">
+    <state width="1877" height="471" key="GridCell.Tab.0.center" timestamp="1589485195252">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589479539967" />
+    <state width="1877" height="471" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195252" />
     <state width="1237" height="128" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208748" />
-    <state width="1877" height="152" key="GridCell.Tab.0.left" timestamp="1589479539967">
+    <state width="1877" height="471" key="GridCell.Tab.0.left" timestamp="1589485195252">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589479539967" />
+    <state width="1877" height="471" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195252" />
     <state width="1237" height="128" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208747" />
-    <state width="1877" height="152" key="GridCell.Tab.0.right" timestamp="1589479539967">
+    <state width="1877" height="471" key="GridCell.Tab.0.right" timestamp="1589485195252">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589479539967" />
+    <state width="1877" height="471" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195252" />
     <state width="1237" height="128" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208748" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1589478755960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589478755960" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1589476161659">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1707" y="7" key="SettingsEditor" timestamp="1589484335923">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
+    <state x="-1707" y="7" key="SettingsEditor/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589484335923" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589476161659" />
   </component>
   <component name="XDebuggerManager">
