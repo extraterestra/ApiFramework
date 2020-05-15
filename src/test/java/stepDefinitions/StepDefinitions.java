@@ -39,4 +39,26 @@ public class StepDefinitions extends Utils {
     public void success_status_of_the_response_returned_is(int responcecode) throws Throwable {
         Assert.assertEquals(response.getStatusCode(), responcecode);
     }
+
+
+    @Given("^Latest Rates API URL is available with (.+) and (.+)$")
+    public void latest_rates_api_url_is_available_with_and(String paramname, String paramvalue) throws Throwable {
+        requestSpec=given().spec(requestSpecification().queryParam(paramname,paramvalue));
+        resourceAPI=APIResources.valueOf("getLatestRatings");
+    }
+
+    @When("^ Latest Rates API is called by GET method$")
+    public void latest_rates_api_is_called_by_get_method() throws Throwable {
+        response =requestSpec.when().get(resourceAPI.getResource());
+    }
+
+    @Then("^ Responce base is (.+)$")
+    public void responce_base_is(String basevalue) throws Throwable {
+        System.out.println("Api called");
+    }
+
+    @And("^  Responce ratings available is/are (.+)$")
+    public void responce_ratings_available_isare(String ratingslist) throws Throwable {
+        System.out.println("Responce received");
+    }
 }
