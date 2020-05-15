@@ -23,8 +23,8 @@ public class Utils {
         {
             PrintStream log =new PrintStream(new FileOutputStream("logging.txt"));
             request=new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl"))
-//                    .addFilter(RequestLoggingFilter.logRequestTo(log))
-//                    .addFilter(ResponseLoggingFilter.logResponseTo(log))
+                    .addFilter(RequestLoggingFilter.logRequestTo(log))
+                    .addFilter(ResponseLoggingFilter.logResponseTo(log))
                     .setContentType(ContentType.JSON).build();
             return request;
         }

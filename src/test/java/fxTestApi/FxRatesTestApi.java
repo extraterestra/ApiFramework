@@ -11,7 +11,7 @@ import resources.Utils;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class FxRatesTestApi extends Utils {
+public class FxRatesTestApi {
 
     @Test
     public void verifyFxLatestResponceCode() {
