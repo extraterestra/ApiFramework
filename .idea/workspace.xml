@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/APIResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RatingsApiLatest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fxTestApi/FxRatesTestApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fxTestApi/FxRatesTestApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -43,7 +51,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Docs\Java\Api\src\test\java\features" />
       <recent name="D:\Docs\Java\Api\src\test\resources" />
       <recent name="D:\Docs\Java\Api\src\test\java" />
       <recent name="D:\Docs\Java\Api\src\main\resources\features" />
@@ -161,11 +173,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestRunner" />
-      <item itemvalue="TestNG.FxRatesTestApi" />
       <item itemvalue="Cucumber Java.Scenario: " />
+      <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="JUnit.StepDefinitions.the_api_is_available" />
       <item itemvalue="JUnit.StepDefinitions.latest_rates_api_was_called" />
+      <item itemvalue="TestNG.FxRatesTestApi" />
     </list>
     <recent_temporary>
       <list>
@@ -189,6 +201,7 @@
       <updated>1589377236581</updated>
       <workItem from="1589475950749" duration="1955000" />
       <workItem from="1589478442335" duration="3902000" />
+      <workItem from="1589527557721" duration="13007000" />
     </task>
     <servers />
   </component>
@@ -196,26 +209,42 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="471" key="GridCell.Tab.0.bottom" timestamp="1589485195253">
-      <screen x="-1920" y="7" width="1920" height="1040" />
+    <state x="371" y="120" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589535894770">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="120" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1589535894770" />
+    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589535896589">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1589535896589" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589544978451">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1589544978451" />
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom" timestamp="1589544900057">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="471" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195253" />
     <state width="1237" height="128" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208748" />
-    <state width="1877" height="471" key="GridCell.Tab.0.center" timestamp="1589485195252">
-      <screen x="-1920" y="7" width="1920" height="1040" />
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589544900057" />
+    <state width="1237" height="148" key="GridCell.Tab.0.center" timestamp="1589544900056">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="471" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195252" />
     <state width="1237" height="128" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208748" />
-    <state width="1877" height="471" key="GridCell.Tab.0.left" timestamp="1589485195252">
-      <screen x="-1920" y="7" width="1920" height="1040" />
+    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589544900056" />
+    <state width="1237" height="148" key="GridCell.Tab.0.left" timestamp="1589544900056">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="471" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195252" />
     <state width="1237" height="128" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208747" />
-    <state width="1877" height="471" key="GridCell.Tab.0.right" timestamp="1589485195252">
-      <screen x="-1920" y="7" width="1920" height="1040" />
+    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589544900056" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right" timestamp="1589544900056">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="471" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589485195252" />
     <state width="1237" height="128" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589479208748" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589544900056" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1589478755960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -231,37 +260,37 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>63</line>
+          <line>59</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>65</line>
+          <line>61</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>53</line>
+          <line>49</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>61</line>
+          <line>57</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>56</line>
+          <line>52</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>43</line>
+          <line>39</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/fxTestApi/FxRatesTestApi.java</url>
-          <line>44</line>
+          <line>40</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>

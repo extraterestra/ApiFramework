@@ -6,17 +6,12 @@ import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pojo.ResponceLatestUsdGbp;
+import resources.Utils;
 
-import static io.restassured.RestAssured.defaultParser;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class FxRatesTestApi {
-
-    @Test
-    public void verifyFxLatest(){
-        System.out.println("Hello");
-    }
+public class FxRatesTestApi extends Utils {
 
     @Test
     public void verifyFxLatestResponceCode() {
@@ -31,6 +26,7 @@ public class FxRatesTestApi {
         //TNEN
         System.out.println(status);
         Assert.assertEquals(status, 200);
+
     }
 
     @Test
