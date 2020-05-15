@@ -1,7 +1,9 @@
 package resources;
 
 public enum APIResources {
-    getLatestRatings("/api/latest");
+    getLatestRatings("/api/latest"),
+    getInvalidLatestRatings("/api/");
+
     private String resource;
 
     APIResources(String resource)

@@ -2,13 +2,15 @@ Feature: Latest Rates API functionality
 
 
   Scenario Outline:
-    Given Latest Rates API was called
-    When The API is available
-    Then Success status of the response returned is <errorCode>
+    Given Latest Rates API URL with <validityStatus> is available
+    When The Latest API is called by GET method
+    Then Success status of the response returned is <responceCode>
     Examples:
-      | errorCode |
-      | 200       |
+      | validityStatus          | responceCode |
+      | getLatestRatings        | 200          |
+      | getInvalidLatestRatings | 400          |
 
+    
   Scenario Outline:
     Given <baseRequested> specified in request
     When Latest Rates API was called
