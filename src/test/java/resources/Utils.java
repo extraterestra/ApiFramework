@@ -20,7 +20,7 @@ public class Utils {
     {
         if(request==null)
         {
-            PrintStream log =new PrintStream(new FileOutputStream("logging.txt"));
+//            PrintStream log =new PrintStream(new FileOutputStream("logging.txt"));
             request=new RequestSpecBuilder().setBaseUri("https://api.ratesapi.io") //  getGlobalValue("baseUrl")
 //                    .addFilter(RequestLoggingFilter.logRequestTo(log))
 //                    .addFilter(ResponseLoggingFilter.logResponseTo(log))

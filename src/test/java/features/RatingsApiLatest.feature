@@ -10,17 +10,15 @@ Feature: Latest Rates API functionality
       | getLatestRatings        | 200          |
       | getInvalidLatestRatings | 400          |
 
-
   Scenario Outline:
-    Given Latest Rates API URL is available with <paramName> and <paramValue>
+    Given Latest Rates API URL is available with <requestParamName> and <requestParamValue>
     When  Latest Rates API is called by GET method
-    Then  Responce base is <baseValue>
-    And   Responce ratings available is/are <ratingsList>
-
+    Then  Responce base is <responceBaseValue>
+    And   Responce ratings available is <responceRatingsList>
     Examples:
-      | paramName   | paramValue  |baseValue|ratingsList|
-      | base        | USD         | USD     |ALL        |
-      | symbols     | USD,GBP     | EUR     |USD,GBP    |
+      | requestParamName | requestParamValue | responceBaseValue | responceRatingsList |
+      | symbols          | USD,GBP           | EUR               | USD,GBP             |
+      | base             | USD               | USD               | ALL                 |
 
 
 
