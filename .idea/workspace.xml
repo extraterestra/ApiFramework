@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsLatest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/StepDefinitions.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StepDefinitions.latest_rates_api_was_called" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StepDefinitionsLatest.latest_rates_api_was_called" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +90,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="stepDefinitions.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepDefinitions.StepDefinitionsLatest" />
       <option name="METHOD_NAME" value="latest_rates_api_was_called" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -100,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StepDefinitions.the_api_is_available" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StepDefinitionsLatest.the_api_is_available" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +107,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="stepDefinitions.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="stepDefinitions.StepDefinitionsLatest" />
       <option name="METHOD_NAME" value="the_api_is_available" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -170,17 +168,17 @@
     <list>
       <item itemvalue="Cucumber Java.Scenario: " />
       <item itemvalue="JUnit.TestRunner" />
-      <item itemvalue="JUnit.StepDefinitions.the_api_is_available" />
-      <item itemvalue="JUnit.StepDefinitions.latest_rates_api_was_called" />
       <item itemvalue="TestNG.FxRatesTestApi" />
+      <item itemvalue="JUnit.StepDefinitionsLatest.the_api_is_available" />
+      <item itemvalue="JUnit.StepDefinitionsLatest.latest_rates_api_was_called" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="JUnit.StepDefinitions.the_api_is_available" />
-        <item itemvalue="JUnit.StepDefinitions.latest_rates_api_was_called" />
-        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="TestNG.FxRatesTestApi" />
+        <item itemvalue="JUnit.StepDefinitionsLatest.the_api_is_available" />
+        <item itemvalue="JUnit.StepDefinitionsLatest.latest_rates_api_was_called" />
+        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +195,7 @@
       <workItem from="1589475950749" duration="1955000" />
       <workItem from="1589478442335" duration="3902000" />
       <workItem from="1589527557721" duration="29135000" />
-      <workItem from="1589621545125" duration="13283000" />
+      <workItem from="1589621545125" duration="19394000" />
     </task>
     <servers />
   </component>
@@ -225,50 +223,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589550247130" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1589639681637">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1589646215731">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681637" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646215731" />
     <state width="1237" height="346" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="97" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589547521272" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1589639681637">
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589643043473" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1589646215730">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681637" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646215730" />
     <state width="1237" height="346" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="97" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589547521272" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1589639681637">
+    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589643043473" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1589646215730">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681637" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646215730" />
     <state width="1237" height="346" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="97" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589547521271" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1589639681637">
+    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589643043473" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1589646215731">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681637" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646215731" />
     <state width="1237" height="346" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="97" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589547521272" />
-    <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1589639681638">
+    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589643043473" />
+    <state width="1877" height="420" key="GridCell.Tab.1.bottom" timestamp="1589646204242">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681638" />
+    <state width="1877" height="420" key="GridCell.Tab.1.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646204242" />
     <state width="1237" height="346" key="GridCell.Tab.1.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
-    <state width="1877" height="242" key="GridCell.Tab.1.center" timestamp="1589639681638">
+    <state width="1237" height="81" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589642948209" />
+    <state width="1877" height="420" key="GridCell.Tab.1.center" timestamp="1589646204242">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681638" />
+    <state width="1877" height="420" key="GridCell.Tab.1.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646204242" />
     <state width="1237" height="346" key="GridCell.Tab.1.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
-    <state width="1877" height="242" key="GridCell.Tab.1.left" timestamp="1589639681638">
+    <state width="1237" height="81" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589642948209" />
+    <state width="1877" height="420" key="GridCell.Tab.1.left" timestamp="1589646204242">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681638" />
+    <state width="1877" height="420" key="GridCell.Tab.1.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646204242" />
     <state width="1237" height="346" key="GridCell.Tab.1.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
-    <state width="1877" height="242" key="GridCell.Tab.1.right" timestamp="1589639681638">
+    <state width="1237" height="81" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589642948209" />
+    <state width="1877" height="420" key="GridCell.Tab.1.right" timestamp="1589646204242">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589639681638" />
+    <state width="1877" height="420" key="GridCell.Tab.1.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589646204242" />
     <state width="1237" height="346" key="GridCell.Tab.1.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
+    <state width="1237" height="81" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589642948209" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1589478755960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -328,64 +330,14 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="54" />
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsLatest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="69" />
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsLatest.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -395,6 +347,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1589644895869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumberOptions.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/api$StepDefinitions_the_api_is_available.ic" NAME="StepDefinitions.the_api_is_available Coverage Results" MODIFIED="1589479160447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>stepDefinitions.*</FILTER>
     </SUITE>
