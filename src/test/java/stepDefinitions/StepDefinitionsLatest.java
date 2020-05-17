@@ -74,7 +74,6 @@ public class StepDefinitionsLatest extends Utils {
         for (String currency : items) {
             paramValues.add(currency);
         }
-        
         if (!paramValues.get(0).equals("ALL")) {
             Assert.assertEquals(paramValues.size(), ratesPojo.getRates().size());
             for (String item : paramValues) {

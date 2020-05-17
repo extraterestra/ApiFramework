@@ -11,7 +11,7 @@ import resources.Utils;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class FxRatesTestApi {
+public class FxRatesTestApi extends Utils {
 
     @Test
     public void verifyFxLatestResponceCode() {
@@ -49,10 +49,6 @@ public class FxRatesTestApi {
 
                 .when().get("/api/latest")
                 .as(ResponceLatestUsdGbp.class);
-
-//        ResponceLatestUsdGbp ratesTest = RestAssured
-//                .get("https://api.ratesapi.io/api/latest")
-//                .as(ResponceLatestUsdGbp.class);
 
 
         System.out.println(ratesTest.getBase());

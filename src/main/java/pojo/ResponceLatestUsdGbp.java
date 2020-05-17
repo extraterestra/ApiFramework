@@ -1,13 +1,14 @@
 package pojo;
+import java.util.Date;
 import java.util.TreeMap;
 
 public class ResponceLatestUsdGbp {
 
     private String base;
     private TreeMap<String, Double> rates;
-    private String date;
+    private Date date;
 
-    public ResponceLatestUsdGbp(String base, TreeMap<String, Double> rates, String date) {
+    public ResponceLatestUsdGbp(String base, TreeMap<String, Double> rates, Date date) {
         this.base = base;
         this.rates = rates;
         this.date = date;
@@ -32,11 +33,11 @@ public class ResponceLatestUsdGbp {
         this.rates = rates;
     }
 
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 }

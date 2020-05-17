@@ -21,6 +21,21 @@ Feature: Latest Rates API functionality
       | base             | USD               | USD               | ALL                 |
 
 
+  Scenario Outline:
+    Given Rates API URL with <resource> is available
+    When The API is called by GET method for specified <specifiedDate>
+    Then Responce status of the response returned is <responceCode>
+    And Responce data corresponds to <expectedDate>
+    Examples:
+      | resource             |specifiedDate  |expectedDate | responceCode |
+      | getRatingsApi        |2020-05-14     | 2020-05-14  | 200          |
+      | getRatingsApi        |2020-05-18     | 2020-05-15  | 200          |
+      | getRatingsApi        |2022-05-15     | 2020-05-15  | 200          |
+      | getRatingsApi        |2020-05-17     | 2020-05-15  | 200          |
+
+
+
+
 
 
 
