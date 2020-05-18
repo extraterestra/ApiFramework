@@ -11,11 +11,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:10 GMT
+Date: Mon, 18 May 2020 15:11:30 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d143b558f85927318448ed7da61271cc21589804350; expires=Wed, 17-Jun-20 12:19:10 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=df7a30fc78f8fe6f8ff43798b08121fad1589814689; expires=Wed, 17-Jun-20 15:11:29 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
@@ -23,11 +23,11 @@ Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1413
+Age: 3219
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595586666db1b827-WAW
-cf-request-id: 02c95253fd0000b8270f1a5200000001
+CF-RAY: 595682d46d9dcc9f-WAW
+cf-request-id: 02c9f018c50000cc9fe5b3d200000001
 
 {
     "base": "EUR",
@@ -80,11 +80,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 400 Bad Request
-Date: Mon, 18 May 2020 12:19:10 GMT
+Date: Mon, 18 May 2020 15:11:30 GMT
 Content-Type: application/json
 Content-Length: 60
 Connection: keep-alive
-Set-Cookie: __cfduid=da879e350bd1b8b4ad2e586c7dff755b51589804350; expires=Wed, 17-Jun-20 12:19:10 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d6b982dd119f13eaae9f5df79ec1d1a101589814690; expires=Wed, 17-Jun-20 15:11:30 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
@@ -92,8 +92,8 @@ CF-Cache-Status: BYPASS
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 5955866859c8f2e0-WAW
-cf-request-id: 02c95255330000f2e0443a9200000001
+CF-RAY: 595682d67b6af2a4-WAW
+cf-request-id: 02c9f01a0e0000f2a449b85200000001
 
 {
     "error": "time data 'api' does not match format '%Y-%m-%d'"
@@ -111,23 +111,23 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:11 GMT
+Date: Mon, 18 May 2020 15:11:30 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=da99858bb05b414d6060d4999ad25ed021589804351; expires=Wed, 17-Jun-20 12:19:11 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d585c08e58fef8e287f4b9581ed8c5cda1589814690; expires=Wed, 17-Jun-20 15:11:30 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1731
+Age: 3096
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 5955866a7b7effcc-WAW
+CF-RAY: 595682d8fd6ab839-WAW
 Content-Encoding: gzip
-cf-request-id: 02c952568e0000ffcc5b37a200000001
+cf-request-id: 02c9f01b9c0000b839b3be7200000001
 
 {
     "base": "EUR",
@@ -150,11 +150,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:11 GMT
+Date: Mon, 18 May 2020 15:11:31 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d7b08d38a3305f05f4635100d96601c381589804351; expires=Wed, 17-Jun-20 12:19:11 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=dd6b4bf8f9795b0cd39c286661b302d0c1589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
@@ -162,11 +162,11 @@ Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1730
+Age: 2265
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 5955866d6f19f2d0-WAW
-cf-request-id: 02c952585c0000f2d0d43ad200000001
+CF-RAY: 595682dcada9f298-WAW
+cf-request-id: 02c9f01de40000f298a71d8200000001
 
 {
     "base": "USD",
@@ -220,11 +220,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:11 GMT
+Date: Mon, 18 May 2020 15:11:31 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d6087abe0efa504ed9caa1f948fa8de191589804351; expires=Wed, 17-Jun-20 12:19:11 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=da7d358ec358274faba6596d6629cd3751589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
@@ -232,11 +232,11 @@ Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 2786
+Age: 2263
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 5955866ee9aaccaf-WAW
-cf-request-id: 02c95259530000ccafa6161200000001
+CF-RAY: 595682de0af4f28c-WAW
+cf-request-id: 02c9f01ec80000f28c52a2f200000001
 
 {
     "base": "EUR",
@@ -289,11 +289,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:12 GMT
+Date: Mon, 18 May 2020 15:11:31 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d797d6d4764981fb74d7ae3c75628283d1589804352; expires=Wed, 17-Jun-20 12:19:12 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d0ee3d6eebaa6b1e3fb50028ab5c238661589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
@@ -301,11 +301,11 @@ Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 2787
+Age: 2262
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595586709b22f2d8-WAW
-cf-request-id: 02c9525a5e0000f2d808128200000001
+CF-RAY: 595682df4853ffc0-WAW
+cf-request-id: 02c9f01f880000ffc062307200000001
 
 {
     "base": "EUR",
@@ -358,22 +358,23 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:12 GMT
+Date: Mon, 18 May 2020 15:11:31 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d97beca7a90388e48ef7a20cffa5d80fb1589804352; expires=Wed, 17-Jun-20 12:19:12 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d6c90864cf39c45b4fbfba2dcfa2a47291589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
-CF-Cache-Status: EXPIRED
+CF-Cache-Status: HIT
+Age: 2262
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 59558671fe0ff2b4-WAW
-cf-request-id: 02c9525b3d0000f2b492a76200000001
+CF-RAY: 595682e0cd00f2e4-WAW
+cf-request-id: 02c9f0207e0000f2e4d98e1200000001
 
 {
     "base": "EUR",
@@ -426,22 +427,23 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:12 GMT
+Date: Mon, 18 May 2020 15:11:32 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d4bb208acbd7afd9e101308f3cef0adc41589804352; expires=Wed, 17-Jun-20 12:19:12 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d85d334f347e887d5358174569f0b2de71589814692; expires=Wed, 17-Jun-20 15:11:32 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
-CF-Cache-Status: EXPIRED
+CF-Cache-Status: HIT
+Age: 2263
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 59558673e95ef298-WAW
-cf-request-id: 02c9525c710000f298b5891200000001
+CF-RAY: 595682e26d6dcc83-WAW
+cf-request-id: 02c9f021830000cc83410cd200000001
 
 {
     "base": "EUR",
@@ -494,23 +496,23 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:12 GMT
+Date: Mon, 18 May 2020 15:11:32 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d5fc3e12abd53cae161dcf7ebd570b6651589804352; expires=Wed, 17-Jun-20 12:19:12 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d1c8919f72061eec26300ac36cd009b411589814692; expires=Wed, 17-Jun-20 15:11:32 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1730
+Age: 2262
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 59558675cc06ccaf-WAW
+CF-RAY: 595682e3d95bf298-WAW
 Content-Encoding: gzip
-cf-request-id: 02c9525d9a0000ccaf86291200000001
+cf-request-id: 02c9f022680000f298b8bb5200000001
 
 {
     "base": "EUR",
@@ -533,11 +535,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 12:19:13 GMT
+Date: Mon, 18 May 2020 15:11:32 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=dbdcd4a8f806d19e273b20c48e15f6d341589804353; expires=Wed, 17-Jun-20 12:19:13 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d631d9e19c0e2300b62361e371f9b54e01589814692; expires=Wed, 17-Jun-20 15:11:32 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
@@ -545,11 +547,11 @@ Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1710
+Age: 2245
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595586772b03f28c-WAW
-cf-request-id: 02c9525e7c0000f28c4fa50200000001
+CF-RAY: 595682e51da6b85d-WAW
+cf-request-id: 02c9f0232b0000b85d7aadb200000001
 
 {
     "base": "USD",

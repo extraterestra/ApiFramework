@@ -15,10 +15,11 @@ Feature: Latest Rates API functionality
     When  Latest Rates API is called by GET method
     Then  Responce base is <responceBaseValue>
     And   Responce ratings available is <responceRatingsList>
+    And   Date in responce corresponds to <lastWorkingDay>
     Examples:
-      | requestParamName | requestParamValue | responceBaseValue | responceRatingsList |
-      | symbols          | USD,GBP           | EUR               | USD,GBP             |
-      | base             | USD               | USD               | ALL                 |
+      | requestParamName | requestParamValue | responceBaseValue | responceRatingsList |lastWorkingDay   |
+      | symbols          | USD,GBP           | EUR               | USD,GBP             |LAST WORKING DAY |
+      | base             | USD               | USD               | ALL                 |LAST WORKING DAY |
 
 
   Scenario Outline:
@@ -27,11 +28,11 @@ Feature: Latest Rates API functionality
     Then Responce status of the response returned is <responceCode>
     And Responce data corresponds to <expectedDate>
     Examples:
-      | resource                   |specifiedDate  |expectedDate | responceCode |
-      | getRatingsApiByDate        |2020-05-14     | 2020-05-14  | 200          |
-      | getRatingsApiByDate        |2020-05-18     | 2020-05-15  | 200          |
-      | getRatingsApiByDate        |2022-05-15     | 2020-05-15  | 200          |
-      | getRatingsApiByDate        |2020-05-17     | 2020-05-15  | 200          |
+      | resource                   |specifiedDate  |expectedDate       | responceCode |
+      | getRatingsApiByDate        |2020-05-14     | 2020-05-14        | 200          |
+      | getRatingsApiByDate        |2020-05-18     | LAST WORKING DAY  | 200          |
+      | getRatingsApiByDate        |2022-05-15     | LAST WORKING DAY  | 200          |
+      | getRatingsApiByDate        |2020-05-17     | LAST WORKING DAY  | 200          |
 
 
   Scenario Outline:
@@ -41,9 +42,9 @@ Feature: Latest Rates API functionality
     And    Responce ratings available with <responceRatingsList>
     And    Data in responce corresponds to <expectedDate>
     Examples:
-      | requestParamName | requestParamValue | specifiedDate | expectedDate|responceBaseValue|responceRatingsList |
-      | symbols          | USD,GBP           | 2020-05-14    | 2020-05-14  | EUR             |USD,GBP             |
-      | base             | USD               | 2022-05-17    | 2020-05-15  | USD             |ALL                 |
+      | requestParamName | requestParamValue | specifiedDate | expectedDate      |responceBaseValue|responceRatingsList |
+      | symbols          | USD,GBP           | 2020-05-14    | 2020-05-14        | EUR             |USD,GBP             |
+      | base             | USD               | 2022-05-17    | LAST WORKING DAY  | USD             |ALL                 |
 
 
 

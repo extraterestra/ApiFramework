@@ -42,7 +42,7 @@ public class StepDefinitionsByDate extends Utils {
 
     @And("^Responce data corresponds to (.+)$")
     public void responce_data_corresponds_to(String expecteddate) throws Throwable {
-        Assert.assertEquals(dateToString(ratesPojo.getDate()), expecteddate);
+        Assert.assertTrue(verifyExpectedDate(expecteddate, ratesPojo.getDate()));
     }
 
     @Given("^Rates API URL is available with (.+) and (.+)$")
@@ -89,6 +89,6 @@ public class StepDefinitionsByDate extends Utils {
 
     @And("^Data in responce corresponds to (.+)$")
     public void data_in_responce_corresponds_to(String expecteddate) throws Throwable {
-        Assert.assertEquals(dateToString(ratesPojo.getDate()), expecteddate);
+        Assert.assertTrue(verifyExpectedDate(expecteddate, ratesPojo.getDate()));
     }
 }

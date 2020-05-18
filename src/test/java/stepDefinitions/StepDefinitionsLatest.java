@@ -83,4 +83,9 @@ public class StepDefinitionsLatest extends Utils {
             Assert.assertFalse(ratesPojo.getRates().isEmpty());
         }
     }
+
+    @And("^Date in responce corresponds to (.+)$")
+    public void date_in_responce_corresponds_to(String expecteddate) throws Throwable {
+        Assert.assertTrue(verifyExpectedDate(expecteddate, ratesPojo.getDate()));
+    }
 }
