@@ -27,16 +27,16 @@ Feature: Latest Rates API functionality
     Then Responce status of the response returned is <responceCode>
     And Responce data corresponds to <expectedDate>
     Examples:
-      | resource             |specifiedDate  |expectedDate | responceCode |
-      | getRatingsApi        |2020-05-14     | 2020-05-14  | 200          |
-      | getRatingsApi        |2020-05-18     | 2020-05-15  | 200          |
-      | getRatingsApi        |2022-05-15     | 2020-05-15  | 200          |
-      | getRatingsApi        |2020-05-17     | 2020-05-15  | 200          |
+      | resource                   |specifiedDate  |expectedDate | responceCode |
+      | getRatingsApiByDate        |2020-05-14     | 2020-05-14  | 200          |
+      | getRatingsApiByDate        |2020-05-18     | 2020-05-15  | 200          |
+      | getRatingsApiByDate        |2022-05-15     | 2020-05-15  | 200          |
+      | getRatingsApiByDate        |2020-05-17     | 2020-05-15  | 200          |
 
 
   Scenario Outline:
     Given  Rates API URL is available with <requestParamName> and <requestParamValue>
-    When   The API is called by GET method for <specifiedDate>
+    When   API is called by GET method for <specifiedDate>
     Then   Responce base provided is <responceBaseValue>
     And    Responce ratings available with <responceRatingsList>
     And    Data in responce corresponds to <expectedDate>

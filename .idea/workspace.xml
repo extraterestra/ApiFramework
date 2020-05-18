@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestCases.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/APIResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/APIResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +199,7 @@
       <workItem from="1589527557721" duration="29135000" />
       <workItem from="1589621545125" duration="33978000" />
       <workItem from="1589724105183" duration="15429000" />
-      <workItem from="1589791438114" duration="1858000" />
+      <workItem from="1589791438114" duration="6519000" />
     </task>
     <servers />
   </component>
@@ -225,54 +227,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589550247130" />
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1589747657776">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1589804346466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657601055" />
     <state width="1237" height="346" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589747657776" />
-    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1589747657776">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589804346466" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1589804346466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657601055" />
     <state width="1237" height="346" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589747657776" />
-    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1589747657775">
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589804346466" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1589804346466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657601055" />
     <state width="1237" height="346" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589747657775" />
-    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1589747657776">
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589804346466" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1589804346466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657601055" />
     <state width="1237" height="346" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629107669" />
-    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589747657776" />
-    <state width="1237" height="133" key="GridCell.Tab.1.bottom" timestamp="1589747657760">
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589804346466" />
+    <state width="1237" height="177" key="GridCell.Tab.1.bottom" timestamp="1589804211294">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.1.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657605720" />
     <state width="1237" height="346" key="GridCell.Tab.1.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
-    <state width="1237" height="133" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589747657760" />
-    <state width="1237" height="133" key="GridCell.Tab.1.center" timestamp="1589747657760">
+    <state width="1237" height="177" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589804211294" />
+    <state width="1237" height="177" key="GridCell.Tab.1.center" timestamp="1589804211294">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.1.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657605720" />
     <state width="1237" height="346" key="GridCell.Tab.1.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
-    <state width="1237" height="133" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589747657760" />
-    <state width="1237" height="133" key="GridCell.Tab.1.left" timestamp="1589747657760">
+    <state width="1237" height="177" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589804211294" />
+    <state width="1237" height="177" key="GridCell.Tab.1.left" timestamp="1589804211294">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.1.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657605720" />
     <state width="1237" height="346" key="GridCell.Tab.1.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
-    <state width="1237" height="133" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589747657760" />
-    <state width="1237" height="133" key="GridCell.Tab.1.right" timestamp="1589747657760">
+    <state width="1237" height="177" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589804211294" />
+    <state width="1237" height="177" key="GridCell.Tab.1.right" timestamp="1589804211294">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="276" key="GridCell.Tab.1.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589657605720" />
     <state width="1237" height="346" key="GridCell.Tab.1.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589629111106" />
-    <state width="1237" height="133" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589747657760" />
+    <state width="1237" height="177" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589804211294" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1589478755960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -325,6 +327,41 @@
           <url>file://$PROJECT_DIR$/src/test/java/resources/Utils.java</url>
           <line>38</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,7 +3,7 @@ package resources;
 public enum APIResources {
     getLatestRatings("/api/latest"),
     getInvalidLatestRatings("/api/"),
-    getRatingsApi("/api");
+    getRatingsApiByDate("/api");
 
     private String resource;
 
