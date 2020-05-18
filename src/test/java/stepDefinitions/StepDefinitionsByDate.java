@@ -11,9 +11,6 @@ import pojo.ResponceLatestUsdGbp;
 import resources.APIResources;
 import resources.Utils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import static io.restassured.RestAssured.given;
 
 public class StepDefinitionsByDate extends Utils {
