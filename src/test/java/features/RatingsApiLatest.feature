@@ -1,7 +1,7 @@
 Feature: Latest Rates API functionality
 
 
-  Scenario Outline:
+  Scenario Outline:Latest Api ratings responce code
     Given Latest Rates API URL with <validityStatus> is available
     When The Latest API is called by GET method
     Then Success status of the response returned is <responceCode>
@@ -10,19 +10,20 @@ Feature: Latest Rates API functionality
       | getLatestRatings        | 200          |
       | getInvalidLatestRatings | 400          |
 
-  Scenario Outline:
-    Given Latest Rates API URL is available with <requestParamName> and <requestParamValue>
+  Scenario Outline:Latest Api ratings checking content
+    Given Latest Rates API URL is available with <symbolsValue> and <baseValue>
     When  Latest Rates API is called by GET method
     Then  Responce base is <responceBaseValue>
     And   Responce ratings available is <responceRatingsList>
     And   Date in responce corresponds to <lastWorkingDay>
     Examples:
-      | requestParamName | requestParamValue | responceBaseValue | responceRatingsList |lastWorkingDay   |
-      | symbols          | USD,GBP           | EUR               | USD,GBP             |LAST WORKING DAY |
-      | base             | USD               | USD               | ALL                 |LAST WORKING DAY |
+      | symbolsValue     | baseValue         | responceBaseValue | responceRatingsList |lastWorkingDay   |
+      | USD,GBP          | null              | EUR               | USD,GBP             |2020-05-18       |
+      | null             | USD               | USD               | ALL                 |2020-05-18       |
+      | EUR,GBP          | USD               | USD               | EUR,GBP             |2020-05-18       |
 
 
-  Scenario Outline:
+  Scenario Outline: API by date checking responce code
     Given Rates API URL with <resource> is available
     When The API is called by GET method for specified <specifiedDate>
     Then Responce status of the response returned is <responceCode>
@@ -35,7 +36,7 @@ Feature: Latest Rates API functionality
       | getRatingsApiByDate        |2020-05-17     | LAST WORKING DAY  | 200          |
 
 
-  Scenario Outline:
+  Scenario Outline: API by date checking content
     Given  Rates API URL is available with <requestParamName> and <requestParamValue>
     When   API is called by GET method for <specifiedDate>
     Then   Responce base provided is <responceBaseValue>

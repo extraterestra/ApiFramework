@@ -11,11 +11,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:30 GMT
+Date: Wed, 20 May 2020 08:53:11 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=df7a30fc78f8fe6f8ff43798b08121fad1589814689; expires=Wed, 17-Jun-20 15:11:29 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d8b9aac9f0fe40a0b83f2ba7fdfcdb5071589964791; expires=Fri, 19-Jun-20 08:53:11 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
@@ -23,49 +23,49 @@ Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 3219
+Age: 30
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595682d46d9dcc9f-WAW
-cf-request-id: 02c9f018c50000cc9fe5b3d200000001
+CF-RAY: 5964d36c3ba1cc8b-WAW
+cf-request-id: 02d2e277a00000cc8be38a2200000001
 
 {
     "base": "EUR",
     "rates": {
-        "GBP": 0.88738,
-        "HKD": 8.3693,
-        "IDR": 16127.82,
-        "ILS": 3.8178,
-        "DKK": 7.4576,
-        "INR": 81.9885,
-        "CHF": 1.0513,
-        "MXN": 25.8966,
-        "CZK": 27.589,
-        "SGD": 1.5397,
-        "THB": 34.656,
-        "HRK": 7.5693,
-        "MYR": 4.6982,
-        "NOK": 11.0568,
-        "CNY": 7.6759,
+        "GBP": 0.89535,
+        "HKD": 8.487,
+        "IDR": 16177.5,
+        "ILS": 3.8601,
+        "DKK": 7.4562,
+        "INR": 82.8535,
+        "CHF": 1.0633,
+        "MXN": 25.8567,
+        "CZK": 27.49,
+        "SGD": 1.5513,
+        "THB": 34.947,
+        "HRK": 7.5713,
+        "MYR": 4.7583,
+        "NOK": 10.9153,
+        "CNY": 7.7816,
         "BGN": 1.9558,
-        "PHP": 54.778,
-        "SEK": 10.6695,
-        "PLN": 4.565,
-        "ZAR": 20.0761,
-        "CAD": 1.5231,
-        "ISK": 157.5,
-        "BRL": 6.3172,
-        "RON": 4.84,
-        "NZD": 1.8145,
-        "TRY": 7.4689,
-        "JPY": 115.53,
-        "RUB": 79.6208,
-        "KRW": 1332.6,
-        "USD": 1.0798,
-        "HUF": 354.7,
-        "AUD": 1.6805
+        "PHP": 55.567,
+        "SEK": 10.5685,
+        "PLN": 4.551,
+        "ZAR": 19.9649,
+        "CAD": 1.5251,
+        "ISK": 156.5,
+        "BRL": 6.2357,
+        "RON": 4.8428,
+        "NZD": 1.8004,
+        "TRY": 7.4448,
+        "JPY": 118.0,
+        "RUB": 79.3839,
+        "KRW": 1341.19,
+        "USD": 1.095,
+        "HUF": 350.35,
+        "AUD": 1.6751
     },
-    "date": "2020-05-15"
+    "date": "2020-05-19"
 }
 Request method:	GET
 Request URI:	https://api.ratesapi.io/api/
@@ -80,11 +80,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 400 Bad Request
-Date: Mon, 18 May 2020 15:11:30 GMT
+Date: Wed, 20 May 2020 08:53:12 GMT
 Content-Type: application/json
 Content-Length: 60
 Connection: keep-alive
-Set-Cookie: __cfduid=d6b982dd119f13eaae9f5df79ec1d1a101589814690; expires=Wed, 17-Jun-20 15:11:30 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d5748d86805693817f26c2c72bd83141a1589964792; expires=Fri, 19-Jun-20 08:53:12 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
@@ -92,8 +92,8 @@ CF-Cache-Status: BYPASS
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 595682d67b6af2a4-WAW
-cf-request-id: 02c9f01a0e0000f2a449b85200000001
+CF-RAY: 5964d36f083eccaf-WAW
+cf-request-id: 02d2e279660000ccaf86148200000001
 
 {
     "error": "time data 'api' does not match format '%Y-%m-%d'"
@@ -111,37 +111,36 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:30 GMT
+Date: Wed, 20 May 2020 08:53:12 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d585c08e58fef8e287f4b9581ed8c5cda1589814690; expires=Wed, 17-Jun-20 15:11:30 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d0a5a08f18e38640c6c2e9bb11cc426751589964792; expires=Fri, 19-Jun-20 08:53:12 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Cache-Control: max-age=14400
-CF-Cache-Status: HIT
-Age: 3096
+CF-Cache-Status: EXPIRED
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 595682d8fd6ab839-WAW
+CF-RAY: 5964d37199cfffd4-WAW
 Content-Encoding: gzip
-cf-request-id: 02c9f01b9c0000b839b3be7200000001
+cf-request-id: 02d2e27afa0000ffd4d5a11200000001
 
 {
     "base": "EUR",
     "rates": {
-        "USD": 1.0798,
-        "GBP": 0.88738
+        "USD": 1.095,
+        "GBP": 0.89535
     },
-    "date": "2020-05-15"
+    "date": "2020-05-19"
 }
 Request method:	GET
 Request URI:	https://api.ratesapi.io/api/latest?base=USD
 Proxy:			<none>
 Request params:	<none>
-Query params:	base=[USD]
+Query params:	base=USD
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -150,11 +149,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:31 GMT
+Date: Wed, 20 May 2020 08:53:13 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=dd6b4bf8f9795b0cd39c286661b302d0c1589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=dda9f08e1b24a90136dbf8e6da021ef2c1589964793; expires=Fri, 19-Jun-20 08:53:13 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
@@ -162,50 +161,88 @@ Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 2265
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595682dcada9f298-WAW
-cf-request-id: 02c9f01de40000f298a71d8200000001
+CF-RAY: 5964d37679deccaf-WAW
+cf-request-id: 02d2e27e090000ccafa5078200000001
 
 {
     "base": "USD",
     "rates": {
-        "GBP": 0.8218003334,
-        "HKD": 7.7507871828,
-        "IDR": 14935.9325801074,
-        "ILS": 3.5356547509,
-        "DKK": 6.90646416,
-        "INR": 75.9293387664,
-        "CHF": 0.9736062234,
-        "MXN": 23.9827745879,
-        "CZK": 25.5501018707,
-        "SGD": 1.425912206,
-        "THB": 32.0948323764,
-        "HRK": 7.0099092425,
-        "EUR": 0.9260974254,
-        "MYR": 4.3509909242,
-        "NOK": 10.2396740137,
-        "CNY": 7.108631228,
-        "BGN": 1.8112613447,
-        "PHP": 50.7297647713,
-        "PLN": 4.2276347472,
-        "ZAR": 18.5924245231,
-        "CAD": 1.4105389887,
-        "ISK": 145.8603445082,
-        "BRL": 5.850342656,
-        "RON": 4.4823115392,
-        "NZD": 1.6804037785,
-        "TRY": 6.9169290609,
-        "JPY": 106.9920355621,
-        "RUB": 73.7366178922,
-        "KRW": 1234.1174291535,
+        "GBP": 0.8176712329,
+        "HKD": 7.7506849315,
+        "IDR": 14773.9726027397,
+        "ILS": 3.5252054795,
+        "DKK": 6.8093150685,
+        "INR": 75.6652968037,
+        "CHF": 0.9710502283,
+        "MXN": 23.6134246575,
+        "CZK": 25.1050228311,
+        "SGD": 1.4167123288,
+        "THB": 31.9150684932,
+        "HRK": 6.9144292237,
+        "EUR": 0.9132420091,
+        "MYR": 4.3454794521,
+        "NOK": 9.9683105023,
+        "CNY": 7.1064840183,
+        "BGN": 1.7861187215,
+        "PHP": 50.7461187215,
+        "PLN": 4.1561643836,
+        "ZAR": 18.2327853881,
+        "CAD": 1.3927853881,
+        "ISK": 142.9223744292,
+        "BRL": 5.6947031963,
+        "RON": 4.4226484018,
+        "NZD": 1.6442009132,
+        "TRY": 6.7989041096,
+        "JPY": 107.7625570776,
+        "RUB": 72.4967123288,
+        "KRW": 1224.8310502283,
         "USD": 1.0,
-        "AUD": 1.5563067235,
-        "HUF": 328.4867568068,
-        "SEK": 9.8809964808
+        "AUD": 1.5297716895,
+        "HUF": 319.9543378995,
+        "SEK": 9.6515981735
     },
-    "date": "2020-05-15"
+    "date": "2020-05-19"
+}
+Request method:	GET
+Request URI:	https://api.ratesapi.io/api/latest?symbols=EUR&symbols=GBP&base=USD
+Proxy:			<none>
+Request params:	<none>
+Query params:	symbols=[EUR, GBP]
+				base=USD
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 20 May 2020 08:53:13 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d2ec051a918166f185b3a9c2e6b01a6491589964793; expires=Fri, 19-Jun-20 08:53:13 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=14400
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 5964d3788badffd0-WAW
+Content-Encoding: gzip
+cf-request-id: 02d2e27f520000ffd0b6855200000001
+
+{
+    "base": "USD",
+    "rates": {
+        "EUR": 0.9132420091,
+        "GBP": 0.8176712329
+    },
+    "date": "2020-05-19"
 }
 Request method:	GET
 Request URI:	https://api.ratesapi.io/api/2020-05-14
@@ -220,23 +257,22 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:31 GMT
+Date: Wed, 20 May 2020 08:53:14 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=da7d358ec358274faba6596d6629cd3751589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=dde597730bfb68ff0ef192b305c510a131589964794; expires=Fri, 19-Jun-20 08:53:14 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
-CF-Cache-Status: HIT
-Age: 2263
+CF-Cache-Status: EXPIRED
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595682de0af4f28c-WAW
-cf-request-id: 02c9f01ec80000f28c52a2f200000001
+CF-RAY: 5964d37aa9e8b845-WAW
+cf-request-id: 02d2e280a50000b8450592d200000001
 
 {
     "base": "EUR",
@@ -289,61 +325,60 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:31 GMT
+Date: Wed, 20 May 2020 08:53:14 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d0ee3d6eebaa6b1e3fb50028ab5c238661589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=dbeb9e2bac9170e2bfd3b98d52d8792871589964794; expires=Fri, 19-Jun-20 08:53:14 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
-CF-Cache-Status: HIT
-Age: 2262
+CF-Cache-Status: EXPIRED
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595682df4853ffc0-WAW
-cf-request-id: 02c9f01f880000ffc062307200000001
+CF-RAY: 5964d37c9beaffc4-WAW
+cf-request-id: 02d2e281e00000ffc404062200000001
 
 {
     "base": "EUR",
     "rates": {
-        "GBP": 0.88738,
-        "HKD": 8.3693,
-        "IDR": 16127.82,
-        "ILS": 3.8178,
-        "DKK": 7.4576,
-        "INR": 81.9885,
-        "CHF": 1.0513,
-        "MXN": 25.8966,
-        "CZK": 27.589,
-        "SGD": 1.5397,
-        "THB": 34.656,
-        "HRK": 7.5693,
-        "MYR": 4.6982,
-        "NOK": 11.0568,
-        "CNY": 7.6759,
+        "GBP": 0.89153,
+        "HKD": 8.3964,
+        "IDR": 16077.45,
+        "ILS": 3.8321,
+        "DKK": 7.4548,
+        "INR": 82.1435,
+        "CHF": 1.0521,
+        "MXN": 25.6337,
+        "CZK": 27.61,
+        "SGD": 1.5426,
+        "THB": 34.684,
+        "HRK": 7.558,
+        "MYR": 4.732,
+        "NOK": 10.9663,
+        "CNY": 7.7068,
         "BGN": 1.9558,
-        "PHP": 54.778,
-        "SEK": 10.6695,
-        "PLN": 4.565,
-        "ZAR": 20.0761,
-        "CAD": 1.5231,
-        "ISK": 157.5,
-        "BRL": 6.3172,
-        "RON": 4.84,
-        "NZD": 1.8145,
-        "TRY": 7.4689,
-        "JPY": 115.53,
-        "RUB": 79.6208,
-        "KRW": 1332.6,
-        "USD": 1.0798,
-        "HUF": 354.7,
-        "AUD": 1.6805
+        "PHP": 55.102,
+        "SEK": 10.6103,
+        "PLN": 4.5596,
+        "ZAR": 19.8913,
+        "CAD": 1.5202,
+        "ISK": 157.1,
+        "BRL": 6.2701,
+        "RON": 4.8388,
+        "NZD": 1.8096,
+        "TRY": 7.4276,
+        "JPY": 116.31,
+        "RUB": 78.908,
+        "KRW": 1332.42,
+        "USD": 1.0832,
+        "HUF": 353.39,
+        "AUD": 1.6736
     },
-    "date": "2020-05-15"
+    "date": "2020-05-18"
 }
 Request method:	GET
 Request URI:	https://api.ratesapi.io/api/2022-05-15
@@ -358,61 +393,60 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:31 GMT
+Date: Wed, 20 May 2020 08:53:15 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d6c90864cf39c45b4fbfba2dcfa2a47291589814691; expires=Wed, 17-Jun-20 15:11:31 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=de25840b526d27bf737a8bde0041346e11589964795; expires=Fri, 19-Jun-20 08:53:15 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
-CF-Cache-Status: HIT
-Age: 2262
+CF-Cache-Status: EXPIRED
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595682e0cd00f2e4-WAW
-cf-request-id: 02c9f0207e0000f2e4d98e1200000001
+CF-RAY: 5964d3810cd4f288-WAW
+cf-request-id: 02d2e284a00000f288ff99c200000001
 
 {
     "base": "EUR",
     "rates": {
-        "GBP": 0.88738,
-        "HKD": 8.3693,
-        "IDR": 16127.82,
-        "ILS": 3.8178,
-        "DKK": 7.4576,
-        "INR": 81.9885,
-        "CHF": 1.0513,
-        "MXN": 25.8966,
-        "CZK": 27.589,
-        "SGD": 1.5397,
-        "THB": 34.656,
-        "HRK": 7.5693,
-        "MYR": 4.6982,
-        "NOK": 11.0568,
-        "CNY": 7.6759,
+        "GBP": 0.89535,
+        "HKD": 8.487,
+        "IDR": 16177.5,
+        "ILS": 3.8601,
+        "DKK": 7.4562,
+        "INR": 82.8535,
+        "CHF": 1.0633,
+        "MXN": 25.8567,
+        "CZK": 27.49,
+        "SGD": 1.5513,
+        "THB": 34.947,
+        "HRK": 7.5713,
+        "MYR": 4.7583,
+        "NOK": 10.9153,
+        "CNY": 7.7816,
         "BGN": 1.9558,
-        "PHP": 54.778,
-        "SEK": 10.6695,
-        "PLN": 4.565,
-        "ZAR": 20.0761,
-        "CAD": 1.5231,
-        "ISK": 157.5,
-        "BRL": 6.3172,
-        "RON": 4.84,
-        "NZD": 1.8145,
-        "TRY": 7.4689,
-        "JPY": 115.53,
-        "RUB": 79.6208,
-        "KRW": 1332.6,
-        "USD": 1.0798,
-        "HUF": 354.7,
-        "AUD": 1.6805
+        "PHP": 55.567,
+        "SEK": 10.5685,
+        "PLN": 4.551,
+        "ZAR": 19.9649,
+        "CAD": 1.5251,
+        "ISK": 156.5,
+        "BRL": 6.2357,
+        "RON": 4.8428,
+        "NZD": 1.8004,
+        "TRY": 7.4448,
+        "JPY": 118.0,
+        "RUB": 79.3839,
+        "KRW": 1341.19,
+        "USD": 1.095,
+        "HUF": 350.35,
+        "AUD": 1.6751
     },
-    "date": "2020-05-15"
+    "date": "2020-05-19"
 }
 Request method:	GET
 Request URI:	https://api.ratesapi.io/api/2020-05-17
@@ -427,23 +461,22 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:32 GMT
+Date: Wed, 20 May 2020 08:53:15 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d85d334f347e887d5358174569f0b2de71589814692; expires=Wed, 17-Jun-20 15:11:32 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d504a325bc388271a715a9f444a93db161589964795; expires=Fri, 19-Jun-20 08:53:15 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
-CF-Cache-Status: HIT
-Age: 2263
+CF-Cache-Status: MISS
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595682e26d6dcc83-WAW
-cf-request-id: 02c9f021830000cc83410cd200000001
+CF-RAY: 5964d3839cebf290-WAW
+cf-request-id: 02d2e286400000f290e41db200000001
 
 {
     "base": "EUR",
@@ -496,23 +529,22 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:32 GMT
+Date: Wed, 20 May 2020 08:53:15 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d1c8919f72061eec26300ac36cd009b411589814692; expires=Wed, 17-Jun-20 15:11:32 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=df11c34c8c3f95ca8a8b9491c241d653e1589964795; expires=Fri, 19-Jun-20 08:53:15 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Cache-Control: max-age=14400
-CF-Cache-Status: HIT
-Age: 2262
+CF-Cache-Status: EXPIRED
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 595682e3d95bf298-WAW
+CF-RAY: 5964d3859f58b839-WAW
 Content-Encoding: gzip
-cf-request-id: 02c9f022680000f298b8bb5200000001
+cf-request-id: 02d2e2877b0000b839b1303200000001
 
 {
     "base": "EUR",
@@ -535,60 +567,59 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 18 May 2020 15:11:32 GMT
+Date: Wed, 20 May 2020 08:53:16 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d631d9e19c0e2300b62361e371f9b54e01589814692; expires=Wed, 17-Jun-20 15:11:32 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+Set-Cookie: __cfduid=d307a3b591755229c1bb294319ffe8ce11589964796; expires=Fri, 19-Jun-20 08:53:16 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
 Vary: Accept-Encoding
 Access-Control-Allow-Methods: GET
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: *
 Content-Encoding: gzip
 Cache-Control: max-age=14400
-CF-Cache-Status: HIT
-Age: 2245
+CF-Cache-Status: MISS
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 Server: cloudflare
-CF-RAY: 595682e51da6b85d-WAW
-cf-request-id: 02c9f0232b0000b85d7aadb200000001
+CF-RAY: 5964d3891c8ff2c0-WAW
+cf-request-id: 02d2e289ae0000f2c0b2b6c200000001
 
 {
     "base": "USD",
     "rates": {
-        "GBP": 0.8218003334,
-        "HKD": 7.7507871828,
-        "IDR": 14935.9325801074,
-        "ILS": 3.5356547509,
-        "DKK": 6.90646416,
-        "INR": 75.9293387664,
-        "CHF": 0.9736062234,
-        "MXN": 23.9827745879,
-        "CZK": 25.5501018707,
-        "SGD": 1.425912206,
-        "THB": 32.0948323764,
-        "HRK": 7.0099092425,
-        "EUR": 0.9260974254,
-        "MYR": 4.3509909242,
-        "NOK": 10.2396740137,
-        "CNY": 7.108631228,
-        "BGN": 1.8112613447,
-        "PHP": 50.7297647713,
-        "PLN": 4.2276347472,
-        "ZAR": 18.5924245231,
-        "CAD": 1.4105389887,
-        "ISK": 145.8603445082,
-        "BRL": 5.850342656,
-        "RON": 4.4823115392,
-        "NZD": 1.6804037785,
-        "TRY": 6.9169290609,
-        "JPY": 106.9920355621,
-        "RUB": 73.7366178922,
-        "KRW": 1234.1174291535,
+        "GBP": 0.8176712329,
+        "HKD": 7.7506849315,
+        "IDR": 14773.9726027397,
+        "ILS": 3.5252054795,
+        "DKK": 6.8093150685,
+        "INR": 75.6652968037,
+        "CHF": 0.9710502283,
+        "MXN": 23.6134246575,
+        "CZK": 25.1050228311,
+        "SGD": 1.4167123288,
+        "THB": 31.9150684932,
+        "HRK": 6.9144292237,
+        "EUR": 0.9132420091,
+        "MYR": 4.3454794521,
+        "NOK": 9.9683105023,
+        "CNY": 7.1064840183,
+        "BGN": 1.7861187215,
+        "PHP": 50.7461187215,
+        "PLN": 4.1561643836,
+        "ZAR": 18.2327853881,
+        "CAD": 1.3927853881,
+        "ISK": 142.9223744292,
+        "BRL": 5.6947031963,
+        "RON": 4.4226484018,
+        "NZD": 1.6442009132,
+        "TRY": 6.7989041096,
+        "JPY": 107.7625570776,
+        "RUB": 72.4967123288,
+        "KRW": 1224.8310502283,
         "USD": 1.0,
-        "AUD": 1.5563067235,
-        "HUF": 328.4867568068,
-        "SEK": 9.8809964808
+        "AUD": 1.5297716895,
+        "HUF": 319.9543378995,
+        "SEK": 9.6515981735
     },
-    "date": "2020-05-15"
+    "date": "2020-05-19"
 }

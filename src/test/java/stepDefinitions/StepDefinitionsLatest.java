@@ -11,8 +11,7 @@ import pojo.ResponceLatestUsdGbp;
 import resources.APIResources;
 import resources.Utils;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import static io.restassured.RestAssured.given;
 
@@ -42,16 +41,22 @@ public class StepDefinitionsLatest extends Utils {
 
     //Scenario 2
     @Given("^Latest Rates API URL is available with (.+) and (.+)$")
-    public void latest_rates_api_url_is_available_with_and(String requestparamname, String requestparamvalue) throws Throwable {
+    public void latest_rates_api_url_is_available_with_and(String symbolsvalue, String basevalue) throws Throwable {
 
-        List<String> paramValues = new ArrayList<>();
-        String[] items = requestparamvalue.split(",");
+        List<String> paramSymbols = new ArrayList<>();
+        String[] paramNamesArr = symbolsvalue.split(",");
+        paramSymbols = Arrays.asList(paramNamesArr);
 
-        for (String currency : items) {
-            paramValues.add(currency);
-        }
+        if (basevalue.equals("null")){
         requestSpec = given().spec(requestSpecification())
-                .queryParam(requestparamname, paramValues);
+                .queryParam("symbols", paramSymbols);
+        } else if(symbolsvalue.equals("null")){
+            requestSpec = given().spec(requestSpecification())
+                    .queryParam("base", basevalue);
+        } else {requestSpec = given().spec(requestSpecification())
+            .queryParam("symbols", paramSymbols)
+            .queryParam("base", basevalue);
+        }
         resourceAPI = APIResources.valueOf("getLatestRatings");
     }
 
