@@ -89,5 +89,6 @@ public class StepDefinitionsByDate extends Utils {
     @And("^Data in responce corresponds to (.+)$")
     public void data_in_responce_corresponds_to(String expecteddate) throws Throwable {
         Assert.assertTrue(verifyExpectedDate(expecteddate, ratesPojo.getDate()));
+        System.out.println();
     }
 }

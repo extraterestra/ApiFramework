@@ -4,6 +4,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 
@@ -19,6 +20,8 @@ import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 import java.util.Properties;
+
+import static io.restassured.RestAssured.given;
 
 public class Utils {
 
@@ -43,7 +46,9 @@ public class Utils {
         prop.load(file);
         return prop.getProperty(key);
     }
-
+    public Response getResponce (String url) throws IOException {
+        return  given().spec(requestSpecification()).get(url);
+    }
     /**
      * The methods converts Date in to String type with "yyyy-MM-dd" pattern
      *
