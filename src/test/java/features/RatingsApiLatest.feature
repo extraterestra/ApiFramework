@@ -1,6 +1,6 @@
 Feature: Latest Rates API functionality
 
-
+  @FullEnd2End @Regression
   Scenario Outline: [Latest Api] checking responce codes
     Given Latest Rates API URL with <validityStatus> is available
     When The Latest API is called by GET method
@@ -9,7 +9,7 @@ Feature: Latest Rates API functionality
       | validityStatus          | responceCode |
       | getLatestRatings        | 200          |
       | getInvalidLatestRatings | 400          |
-
+  @FullEnd2End
   Scenario Outline: [Latest Api] checking content for base and symbols params
     Given Latest Rates API URL is available with <requestParamName> and <requestParamValue>
     When  Latest Rates API is called by GET method

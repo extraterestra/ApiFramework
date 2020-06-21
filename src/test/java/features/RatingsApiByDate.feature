@@ -1,5 +1,5 @@
 Feature: Rates API by date functionality
-
+  @FullEnd2End @Regression
   Scenario Outline: [Api by date] checking responce codes
     Given Rates API URL with <resource> is available
     When The API is called by GET method for specified <specifiedDate>
@@ -12,7 +12,7 @@ Feature: Rates API by date functionality
       | getRatingsApiByDate        |2022-05-15     | LAST WORKING DAY  | 200          |
       | getRatingsApiByDate        |2020-05-17     | 2020-05-15        | 200          |
 
-
+  @FullEnd2End
   Scenario Outline:  [Api by date] checking content for base and symbols params
     Given  Rates API URL is available with <requestParamName> and <requestParamValue>
     When   API is called by GET method for <specifiedDate>

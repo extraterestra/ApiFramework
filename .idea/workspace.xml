@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiByDate.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberOptions/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/RatingsApiByDate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiByDate.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitionsByDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumberOptions/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +32,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ApiFRAMEWORK/APIFramework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -183,7 +180,6 @@
         <item itemvalue="TestNG.FxRatesTestApi" />
         <item itemvalue="JUnit.StepDefinitionsLatest.the_api_is_available" />
         <item itemvalue="JUnit.StepDefinitionsLatest.latest_rates_api_was_called" />
-        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +204,10 @@
       <workItem from="1590569685795" duration="106000" />
       <workItem from="1590570221751" duration="776000" />
       <workItem from="1591035362510" duration="602000" />
-      <workItem from="1591101344623" duration="7215000" />
+      <workItem from="1591101344623" duration="7628000" />
+      <workItem from="1591961889172" duration="274000" />
+      <workItem from="1591962545457" duration="1565000" />
+      <workItem from="1592131340910" duration="20000" />
     </task>
     <servers />
   </component>
@@ -237,29 +236,29 @@
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591129793999" />
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589550247130" />
-    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1591133096872">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1592757741322">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590514368914" />
-    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133096872" />
+    <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1592757741322" />
+    <state width="1237" height="262" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133636020" />
     <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589814184089" />
-    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1591133096872">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="354" key="GridCell.Tab.0.center" timestamp="1592757741322">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590514368914" />
-    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133096872" />
+    <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1592757741322" />
+    <state width="1237" height="262" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133636020" />
     <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589814184089" />
-    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1591133096872">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="354" key="GridCell.Tab.0.left" timestamp="1592757741322">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590514368914" />
-    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133096872" />
+    <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1592757741322" />
+    <state width="1237" height="262" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133636020" />
     <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589814184089" />
-    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1591133096872">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right" timestamp="1592757741322">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590514368914" />
-    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133096872" />
+    <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1592757741322" />
+    <state width="1237" height="262" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591133636020" />
     <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589814184089" />
     <state width="1877" height="457" key="GridCell.Tab.1.bottom" timestamp="1590514336943">
       <screen x="-1920" y="7" width="1920" height="1040" />
@@ -294,9 +293,10 @@
     </state>
     <state x="-1707" y="7" key="SettingsEditor/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589484335923" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1589476161659" />
-    <state x="91" y="0" key="new project wizard" timestamp="1590508094919">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1783" y="7" key="new project wizard" timestamp="1591962159737">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
+    <state x="-1783" y="7" key="new project wizard/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1591962159737" />
     <state x="91" y="0" key="new project wizard/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1590508094919" />
   </component>
   <component name="XDebuggerManager">
@@ -361,11 +361,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1589657588703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cucumberOptions.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/api$StepDefinitions_the_api_is_available.ic" NAME="StepDefinitions.the_api_is_available Coverage Results" MODIFIED="1589479160447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>stepDefinitions.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/api$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1589657588703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumberOptions.*</FILTER>
     </SUITE>
   </component>
 </project>
