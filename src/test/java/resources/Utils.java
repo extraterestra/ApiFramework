@@ -26,12 +26,13 @@ import static io.restassured.RestAssured.given;
 public class Utils {
 
     public static RequestSpecification request;
-    public static String pathToProp = "D:\\Docs\\Java\\Api\\src\\test\\java\\resources\\global.properties";
+    public static String pathToGlobalProp = "\\src\\test\\java\\resources\\global.properties";
+    public static Properties prop;
 
     public RequestSpecification requestSpecification() throws IOException {
         if (request == null) {
             PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
-            request = new RequestSpecBuilder().setBaseUri("https://api.ratesapi.io") //  getGlobalValue("baseUrl")
+            request = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl"))
                     .addFilter(RequestLoggingFilter.logRequestTo(log))
                     .addFilter(ResponseLoggingFilter.logResponseTo(log))
                     .setContentType(ContentType.JSON).build();
@@ -41,9 +42,10 @@ public class Utils {
     }
 
     public static String getGlobalValue(String key) throws IOException {
-        Properties prop = new Properties();
-        FileInputStream file = new FileInputStream(pathToProp);
+        prop = new Properties();
+        FileInputStream file = new FileInputStream(System.getProperty("user.dir") + pathToGlobalProp);
         prop.load(file);
+
         return prop.getProperty(key);
     }
     public Response getResponce (String url) throws IOException {

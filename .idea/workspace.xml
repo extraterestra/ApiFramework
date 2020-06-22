@@ -4,8 +4,8 @@
     <list default="true" id="2ec131cc-09e6-400e-b694-e21bbd484722" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/RatingsApiByDate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiByDate.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/RatingsApiLatest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../E2ESeleniumProject" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -231,9 +231,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1589544978451" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1591129793999">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1288" y="154" key="FileChooserDialogImpl" timestamp="1592828822163">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
+    <state x="-1288" y="154" key="FileChooserDialogImpl/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1592828822163" />
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1591129793999" />
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589550247130" />
     <state width="1877" height="354" key="GridCell.Tab.0.bottom" timestamp="1592757741322">
@@ -344,7 +345,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/resources/Utils.java</url>
-          <line>65</line>
+          <line>70</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
